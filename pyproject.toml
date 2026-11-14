@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "crafvy"
+version = "0.3.0"
+description = "The official Python SDK of the Crafvy API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["crafvy", "api", "sdk", "crm", "invoicing", "workflows"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+]
+
+[project.urls]
+Homepage = "https://docs.crafvy.com/sdk"
+Source = "https://github.com/Crafvy/crafvy-python"
+Changelog = "https://github.com/Crafvy/crafvy-python/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/crafvy"]
