@@ -1,7 +1,7 @@
 # Generated from sdks/openapi.json by `pnpm sdk:generate` — do not edit.
 """Every operation of the API: its method and path."""
 
-API_VERSION = "0.3.0"
+API_VERSION = "0.3.1"
 
 OPERATIONS = {
     "abTests.create": ("POST", "/api/ab-tests"),

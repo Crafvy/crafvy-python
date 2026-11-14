@@ -2,6 +2,10 @@
 
 One version for every language (TypeScript, Python, PHP, Go, Java, C#): the same operations in each.
 
+## 0.3.1 — 2026-11-14
+
+No change to the API. The TypeScript and C# packages reach their registries (0.3.0 did not: a missing lockfile, a test that held the old version), and the Java release no longer fails after a successful upload to Maven Central.
+
 ## 0.3.0 — 2026-11-14
 
 ### Added
